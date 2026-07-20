@@ -1,0 +1,6 @@
+{
+  "name": "医生专属解压神器",
+  "description": "医生专属的深夜急诊诊室解压游戏！通过点击甩动听诊器、止血钳与除颤仪，粉碎无理投诉与值班重压，大声说出你的拒绝宣言！",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
