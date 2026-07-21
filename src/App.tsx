@@ -857,9 +857,9 @@ export default function App() {
       <OfficeBackground />
 
       {/* Header bar */}
-      <header className="w-full bg-slate-950/85 backdrop-blur-md border-b border-slate-900 px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4 z-20 shadow-lg">
-        <div className="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto">
-          {/* Brand Logo Banner reproducing the WeChat Image */}
+      <header className="w-full bg-slate-950/85 backdrop-blur-md border-b border-slate-900 px-6 py-4 flex flex-col xl:flex-row items-center justify-between gap-4 z-20 shadow-lg">
+        <div className="flex flex-col sm:flex-row items-center gap-4 w-full xl:w-auto">
+          {/* Brand Logo Banner */}
           <BrandBanner />
 
           <div className="flex items-center gap-3">
@@ -870,7 +870,7 @@ export default function App() {
             </div>
             <div>
               <h1 className="text-base sm:text-lg font-black tracking-tight bg-gradient-to-r from-slate-100 via-sky-200 to-teal-200 bg-clip-text text-transparent">
-                医生专属加压神器
+                医生专属解压神器
               </h1>
               <p className="text-[10px] text-slate-400 font-mono">
                 Doctor-Exclusive Stress Relief • 医路坎坷，用行动击退道德绑架！
@@ -1280,9 +1280,11 @@ export default function App() {
       </main>
 
       {/* Footer disclaimer */}
-      <footer className="w-full text-center mt-8 px-6 text-slate-500 text-[11px] font-mono">
-        <div>本游戏纯属虚构与急诊科医生幽默解压之作，不代表任何真实医疗指引与纠纷解决建议。向所有守护健康的医务工作者致敬！</div>
-        <div className="mt-1">© 2026 医患和谐与心理疏导解压委员会. All Rights Reserved.</div>
+      <footer className="w-full text-center mt-8 pb-8 px-6 text-slate-500 text-[11px] font-mono">
+        <div className="max-w-2xl mx-auto leading-relaxed">
+          <div>本游戏纯属虚构与急诊科医生幽默解压之作，不代表任何真实医疗指引与纠纷解决建议。向所有守护健康的医务工作者致敬！</div>
+          <div className="mt-1">© 2026 医患和谐与心理疏导解压委员会. All Rights Reserved.</div>
+        </div>
       </footer>
     </div>
   );
